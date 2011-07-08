@@ -1,13 +1,14 @@
 include $(GOROOT)/src/Make.inc
 
 TARG=
-GOFILES=\
+SOURCES=\
 	p01.go\
+	p02.go\
 OBJECTS=$(SOURCES:.go=.${O})
 
-%.${O} : %.go
+%.${O}: %.go
 	${O}g -o $@ $<
-% : %.${O}
+%: %.${O}
 	${O}l -o $@ $<
 
 #include $(GOROOT)/src/Make.cmd
