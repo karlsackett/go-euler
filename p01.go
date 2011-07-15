@@ -1,9 +1,9 @@
-/*
-    If we list all the natural numbers below 10 that are multiples of 3 or 5, we
-    get 3, 5, 6 and 9. The sum of these multiples is 23.
+// Copyright 2011 Karl Sackett <karl.sackett@gmail.com>
+// Use of this source code is governed by the MIT
+// license that can be found in the LICENSE file.
 
-    Find the sum of all the multiples of 3 or 5 below 1000.
-*/
+// p01.go
+// Find the sum of all the multiples of 3 or 5 below 1000.
 
 package main
 
